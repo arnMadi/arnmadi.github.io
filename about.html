@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos de Dixi</title>
+    <link rel="stylesheet" href="css/corecss.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <a href="" class="cs-logo" aria-label="back to home">
+                <img src="assets/images/logo.png" alt="dixi logo" width="210" height="29" aria-hidden="true" decoding="async">
+            </a>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="index.html" class="cs-li-link">
+                                Acueil
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="about.html" class="cs-li-link cs-active">
+                                A propos
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="catalogue.html" class="cs-li-link">
+                                Catalogue
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <script src="js/nav.js"></script>
+            <a href="https://wa.me/+243825690001" target="_blank" class="cs-button-solid cs-nav-button">Contactez - nous</a>
+            <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+            <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+                <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+                <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+            </button> -->
+        </div>
+    </header>
+
+    <section id="sbsr-1599">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">A propos</span>
+                <h2 class="cs-title">Plongez dans l'univers captivant de Dixi</h2>
+                <p class="cs-text">
+                    Une entreprise de conception de vêtements jeune et innovante, fondée par des jeunes designers de l'Académie des Beaux-Arts de Kinshasa. Pour les passionnés de mode qui ressentent l'excitation à chaque nouvelle création, Dixi capture l'essence de ce moment palpitant où l'inspiration et la créativité s'unissent dans une danse féroce de style et d'originalité. Chaque pièce de Dixi incarne le talent brut et la vision audacieuse de ces artistes, offrant des vêtements uniques qui résonnent avec l'énergie et l'esprit de la jeunesse congolaise.
+                </p>
+                <picture class="cs-picture cs-picture1">
+                    <!--Mobile Image-->
+                    <!-- <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people.jpg"> -->
+                    <!--Tablet and above Image-->
+                    <!-- <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people.jpg"> -->
+                    <img loading="lazy" decoding="async" src="assets/images/about 1.jpg" alt="people" width="608" height="406">
+                </picture>
+            </div>
+            <div class="cs-stats-group">
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <!-- <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/model2.jpg"> -->
+                    <!--Tablet and above Image-->
+                    <!-- <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/model2.jpg"> -->
+                    <img loading="lazy" decoding="async" src="assets/images/about2.jpg" alt="people" width="608" height="662">
+                </picture>
+                <ul class="cs-stats">
+                    <li class="cs-stat">
+                        <span class="cs-number">99%</span>
+                        <span class="cs-desc">Satisfaction clients</span>
+                    </li>
+                    <li class="cs-stat">
+                        <span class="cs-number">72h</span>
+                        <span class="cs-desc">Durée max de livraison</span>
+                    </li>
+                    <li class="cs-stat">
+                        <span class="cs-number">24/7</span>
+                        <span class="cs-desc">Commande h-24 et 7/7 jours</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- STEPS 2 --------------------------                -->
+ <!-- ============================================ -->
+<!--                   Steps                      -->
+<!-- ============================================ -->
+
+<section id="steps-284">
+    <div class="cs-container">
+        <!-- Left Section -->
+        <div class="cs-content">
+            <span class="cs-topper">Etapes</span>
+            <h2 class="cs-title">Processus en 3 Étapes de Dixi</h2>
+            <p class="cs-text">
+                Chez Dixi, commandez facilement vos vêtements en suivant trois étapes simples : passez la commande sur WhatsApp, recevez des maquettes pour approbation, et profitez de la réalisation et livraison à domicile. Strong amet, consectetur adipiscing elit. At tortor facilisis non, rutrum sagittis, libero. Iaculis egestas enim lacinia est phasellus odio laoreet nisl amet. 
+            </p>
+            <a href="https://wa.me/+243825690001" class="cs-button-solid">Commandez</a>
+        </div>
+        <!-- Right Section -->
+        <ul class="cs-right-section">
+            <li class="cs-item">
+                <span class="cs-number">01</span>
+                <p class="cs-item-text">
+                    <strong>Passez la commande</strong> Renseignez les détails de votre commande directement sur WhatsApp.
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">02</span>
+                <p class="cs-item-text">
+                    <strong>Recevez des propositions et maquettes</strong> Nous vous fournissons un ou plusieurs maquettes pour approbation.
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">03</span>
+                <p class="cs-item-text">
+                    <strong>Réalisation et Livraison</strong> La pièce est réalisée et peut être livrée à domicile.
+                </p>
+            </li>
+            
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Footer                      -->
+<!-- ============================================ -->
+
+<footer id="footer-1147">
+    <div class="cs-container">
+        <div class="cs-top">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="assets/images/logowhite.png" alt="logo" width="168" height="48">
+            </a>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a href="index.html" class="cs-link">Accueil</a>
+                </li>
+                <li class="cs-li">
+                    <a href="about.html" class="cs-link">A propos</a>
+                </li>
+                <li class="cs-li">
+                    <a href="catalogue.html" class="cs-link">Catalogue</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-bottom">
+            <!--Social-->
+            <ul class="cs-social">
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-transparent.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-transparent2.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+            </ul>
+            <span class="cs-copyright">
+                © Copyright 2023 - <a href="" class="cs-copyright-link">Dartistes digital technology</a>
+            </span>
+        </div>
+    </div>
+    <!--Background-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <!-- <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg"> -->
+        <!--Tablet and above Image-->
+        <!-- <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg"> -->
+        <img loading="lazy" decoding="async" src="assets/images/service5.jpg" alt="kids" width="1280" height="568">
+    </picture>
+</footer>
+                    
+       
+<script src="js/js.js"></script>
+</body>
+</html>

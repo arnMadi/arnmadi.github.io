@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil Dixi</title>
+    <link rel="stylesheet" href="css/corecss.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <a href="" class="cs-logo" aria-label="back to home">
+                <img src="assets/images/logo.png" alt="dixi logo" width="210" height="29" aria-hidden="true" decoding="async">
+            </a>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="index.html" class="cs-li-link cs-active">
+                                Acueil
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="about.html" class="cs-li-link">
+                                A propos
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="catalogue.html" class="cs-li-link">
+                                Catalogue
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <script src="js/nav.js"></script>
+            <a href="https://wa.me/+243825690001" target="_blank" class="cs-button-solid cs-nav-button">Contactez - nous</a>
+            <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+            <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+                <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+                <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+            </button> -->
+        </div>
+    </header>
+
+    <section id="sbsr-1810">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <!--Main Image-->
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <img loading="lazy" decoding="async" src="assets/images/home.png" alt="body builder" width="562" height="568">
+                    <!-- <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym3.png"> -->
+                    <!--Tablet and above Image-->
+                    
+                    <!-- <img loading="lazy" decoding="async" src="assets/images/slider1.png" alt="body builder" width="562" height="568"> -->
+                    <!-- <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym3.png"> -->
+                    <!-- <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym3.png" alt="body builder" width="562" height="568"> -->
+                </picture>
+                <!--Pink Blob-->
+                <img class="cs-splatter" loading="lazy" decoding="async" src="" alt="red splatter" width="441" height="478">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Accueil</span>
+                <h2 class="cs-title">Chez Dixi, nous Révolutionnons Votre Style Quotidien</h2>
+                <p class="cs-text">
+                    Nous savons que votre mode de vie évolue, c'est pourquoi nous avons simplifié la mode pour vous. Rejoignez-nous dès aujourd'hui avec des abonnements sans engagement et commencez à transformer votre garde-robe. Chez Dixi, nous valorisons la flexibilité avec un accès illimité à notre boutique en ligne 24/7. Découvrez les dernières tendances et looks sans limite de temps.
+                </p>
+                <a href="" class="cs-button-solid" aria-label="learn more about us">Learn More</a>
+            </div>
+        </div>
+    
+        <!--White Splash Graphic-->
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/f7-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <!--This is a dark version. Download the image and change the fill color to match the color of the section background below it-->
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+
+    <section id="services-1724">
+        <div class="cs-container">
+            <div class="cs-content">
+                <div class="cs-flex-group">
+                    <span class="cs-topper">Nos Produits</span>
+                    <h2 class="cs-title">Nous personnalisons votre look</h2>
+                </div>
+                <p class="cs-text">
+                    Chaque tenue que vous portez est une chance de vous exprimer et d'afficher votre individualité. Lorsque vous adoptez les dernières tendances, vous ne faites pas que suivre la mode, vous la créez. En choisissant des pièces uniques et en les combinant avec votre propre touche, vous montrez au monde qui vous êtes vraiment. Alors, embrassez votre style avec confiance et laissez votre garde-robe parler pour vous. Après tout, chaque jour est une nouvelle opportunité de réinventer votre look et de montrer votre créativité.
+                </p>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <a href="catalogue.html" class="cs-link">
+                        <span class="cs-number">01</span>
+                        <h3 class="cs-h3">Style</h3>
+                    </a>
+                    <picture class="cs-picture">
+                        <!-- <source media="(max-width: 600px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-1.png">
+                        <source media="(min-width: 601px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-1.png"> -->
+                        <img decoding="async"
+                                src="assets/images/service1.jpg"
+                                alt="finance" width="413" height="374" aria-hidden="true" loading="lazy">
+                    </picture>
+                </li>
+                <li class="cs-item">
+                    <a href="catalogue.html" class="cs-link">
+                        <span class="cs-number">02</span>
+                        <h3 class="cs-h3">Fashion</h3>
+                    </a>
+                    <picture class="cs-picture">
+                        <!-- <source media="(max-width: 600px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-2.png">
+                        <source media="(min-width: 601px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-2.png"> -->
+                        <img decoding="async"
+                                src="assets/images/service2.jpg"
+                                alt="finance" width="413" height="374" aria-hidden="true" loading="lazy">
+                    </picture>
+                </li>
+                <li class="cs-item">
+                    <a href="catalogue.html" class="cs-link">
+                        <span class="cs-number">03</span>
+                        <h3 class="cs-h3">Elegance</h3>
+                    </a>
+                    <picture class="cs-picture">
+                        <!-- <source media="(max-width: 600px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-3.png">
+                        <source media="(min-width: 601px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-3.png"> -->
+                        <img decoding="async"
+                                src="assets/images/service3.jpg"
+                                alt="finance" width="413" height="374" aria-hidden="true" loading="lazy">
+                    </picture>
+                </li>
+                <li class="cs-item">
+                    <a href="catalogue.html" class="cs-link">
+                        <span class="cs-number">04</span>
+                        <h3 class="cs-h3">Symplicité</h3>
+                    </a>
+                    <picture class="cs-picture">
+                        <!-- <source media="(max-width: 600px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-4.png">
+                        <source media="(min-width: 601px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-4.png"> -->
+                        <img decoding="async"
+                                src="assets/images/service4.jpg"
+                                alt="finance" width="413" height="374" aria-hidden="true" loading="lazy">
+                    </picture>
+                </li>
+                <li class="cs-item">
+                    <a href="catalogue.htm" class="cs-link">
+                        <span class="cs-number">05</span>
+                        <h3 class="cs-h3">Premium</h3>
+                    </a>
+                    <picture class="cs-picture">
+                        <!-- <source media="(max-width: 600px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-5.png">
+                        <source media="(min-width: 601px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-5.png"> -->
+                        <img decoding="async"
+                                src="assets/images/service5.jpg"
+                                alt="finance" width="413" height="374" aria-hidden="true" loading="lazy">
+                    </picture>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+<!-- ============================================ -->
+<!--                Contact Form                  -->
+<!-- ============================================ -->
+
+<section id="cs-contact-242">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Ecrivez à notre Equipe</span>
+            <h2 class="cs-title">Contactez-Nous</h2>
+            <p class="cs-text">
+                Nous sommes là pour vous aider et répondre à toutes vos questions ! N'hésitez pas à nous contacter pour toute demande d'information, de collaboration ou de service après-vente. Notre équipe est disponible 24/7 pour vous assister.
+            </p>
+        </div>
+        <!-- Form -->
+        <form id="cs-form-242" name="Contact Form" method="post">
+            <label class="cs-label">
+                Nom
+                <input class="cs-input" required type="text" id="name-242" name="name" placeholder="Chris Kalamba">
+            </label>
+            <label class="cs-label">
+                Email
+                <input class="cs-input" required type="text" id="email-242" name="email" placeholder="arnoldmadi43@gmail.com">
+            </label>
+            <label class="cs-label">
+                Telehone
+                <input class="cs-input" required type="text" id="phone-242" name="phone" placeholder="+243 (206) 987-6543">
+            </label>
+            <label class="cs-label">
+                Ou as-tu entendu parler de nous?
+                <input class="cs-input" type="text" id="find-242" name="find-us" placeholder="Social Media, Family, Friend...">
+            </label>
+            <label class="cs-label cs-label-message">
+                Message
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-242" placeholder="Hello, I’m interested in..."></textarea>
+            </label>
+            <button class="cs-button-solid cs-submit" type="submit">Envoyez le message</button>
+        </form>
+        <!-- Contact Info -->
+        <div class="cs-right-section">
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/mail.svg" alt="mail icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Email</span>
+                        <a href="mailto:dixi@gmail.com" class="cs-link">dixi@gmail.com</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone.svg" alt="phone icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:+243825690001" class="cs-link">+243 825 690 001</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin.svg" alt="address icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Address</span>
+                        <a href="" class="cs-link"><span class="cs-block">N 24/C Debonhomme,</span> Kinshasa - Matete</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- Picture -->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/map-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/map.jpg">
+                <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/map.jpg" alt="google map" width="462" height="438">
+            </picture>
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                  Footer                      -->
+<!-- ============================================ -->
+
+<footer id="footer-1147">
+    <div class="cs-container">
+        <div class="cs-top">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="assets/images/logowhite.png" alt="logo" width="168" height="48">
+            </a>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a href="index.html" class="cs-link">Accueil</a>
+                </li>
+                <li class="cs-li">
+                    <a href="about.html" class="cs-link">A propos</a>
+                </li>
+                <li class="cs-li">
+                    <a href="catalogue.html" class="cs-link">Catalogue</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-bottom">
+            <!--Social-->
+            <ul class="cs-social">
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="https://www.instagram.com/dixi__officiel?igsh=NTc4MTIwNjQ2YQ==" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-transparent.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-transparent2.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+            </ul>
+            <span class="cs-copyright">
+                © Copyright 2023 - <a href="" class="cs-copyright-link">Dartistes digital technology</a>
+            </span>
+        </div>
+    </div>
+    <!--Background-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <!-- <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg"> -->
+        <!--Tablet and above Image-->
+        <!-- <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg"> -->
+        <img loading="lazy" decoding="async" src="assets/images/service5.jpg" alt="kids" width="1280" height="568">
+    </picture>
+</footer>
+                    
+       
+<script src="js/js.js"></script>
+</body>
+</html>
